@@ -14,6 +14,8 @@ from inky.auto import auto
 from inkystock import Element
 from inkystock.layout import LayoutList, Container, Layout, Border
 
+from waveshare_epd import epd2in13_V2
+
 log = logging.getLogger("inkystock")
 
 
