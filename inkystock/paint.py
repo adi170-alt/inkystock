@@ -227,7 +227,7 @@ class Pillow(Painter):
         return PillowImage(canvas)
 
     def display(self, image: PillowImage):
-        board = auto()
+        board = epd2in13_V2()
         board.set_image(image.invert().render())
         board.show()
 
